@@ -7,9 +7,9 @@ using System.Web.Mvc;
 
 namespace Books_FinalProject.Controllers
 {
-    public class CustomersController : Controller
+    public class OrderOptionsController : Controller
     {
-        // GET: Customers
+        // GET: OrderOptions
         public ActionResult All()
         {
             BooksEntities context = new BooksEntities();
